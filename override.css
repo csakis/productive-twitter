@@ -1,6 +1,6 @@
 nav a div div,
 nav div div div {
-  font-size: 16px !important;
+  font-size: 14px !important;
   font-weight: 400 !important;
   line-height: 1.3 !important;
 }
@@ -138,5 +138,16 @@ div[aria-label="New Tweets are available. Push period to go to the beginning of 
 }
 
 article[data-testid="tweetDetail"] > div:first-child {
+  display: none;
+}
+
+a[href='/explore'] {
+  display: none;
+}
+
+a[href='/i/bookmarks'] {
+  display: none;
+}
+a[href='/csakis/lists'] {
   display: none;
 }
